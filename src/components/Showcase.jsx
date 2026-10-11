@@ -1,5 +1,5 @@
 import placeholder from "../assets/portfolio_placeholder_img.jpg"
-import showcase_title_clipped from "../assets/clips/showcase_title_clipped.webm"
+import showcase_title_clipped from "../assets/clips/showcase_title_clipped.mp4"
 import {motion} from "motion/react"
 import { NavLink } from "react-router";
 
