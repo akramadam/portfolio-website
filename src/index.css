@@ -366,13 +366,17 @@ body {
   max-width: 40vw;
   object-fit: cover;
 
+  @media (max-width: 1440px) {
+    max-height: 40vh;
+    max-width: 40vw;
+  }
+
   
   
 
   @media (max-width:  768px) {
    width: 100%;
-    max-height: 20vh;
-    max-width: 20vw;
+    
     
   }
  
