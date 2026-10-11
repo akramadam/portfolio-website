@@ -37,7 +37,7 @@ export default function Showcase() {
                             color: '#FFFFFF' ,
                         }}
                     className="showcase_project_button_project">Zur Projektseite</MotionNavLink>
-                    <a href="http://akramadam.umwelt-psychologie.de/">
+                    <a href="http://akramadam.umwelt-psychologie.de/" target="_blank">
                         <motion.button 
                     
                     whileHover={{
