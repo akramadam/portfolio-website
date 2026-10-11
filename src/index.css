@@ -237,6 +237,13 @@ body {
   box-shadow: 0 0 40px rgba(107, 122, 250, 1);
   border: solid 8px #5C6AE5;
   margin: 2vh 1.042vw;
+
+  @media (max-width:  768px) {
+   
+   border: solid 3px #5C6AE5;
+    
+  }
+  
   
 }
 
@@ -380,8 +387,9 @@ body {
   
 
   @media (max-width:  768px) {
-   width: 100%;
-    
+   
+    max-height: 80vh;
+    max-width: 80vw;
     
   }
  
