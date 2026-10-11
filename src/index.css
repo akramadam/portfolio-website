@@ -378,7 +378,7 @@ body {
 
 
 .about_me_content{
-  @media (max-width: 1440px) {
+  @media (max-width: 768px) {
     min-height: 30vh;
     text-align: center;
     
