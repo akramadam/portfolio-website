@@ -366,10 +366,7 @@ body {
   min-width: 30vw;
   object-fit: cover;
 
-  @media (max-width: 1440px) {
-    
-    max-width: 70% ;
-  }
+  
 
   @media (max-width:  768px) {
    width: 100%;
