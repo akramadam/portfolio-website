@@ -294,7 +294,7 @@ body {
 }
 
 .showcase_project_button_project{
-  padding: 15px 2.083vw /*40px*/;
+  padding: 1.5vh /*15px*/ 2.083vw /*40px*/;
   background: white;
   /* border: 1px solid black; */
   border-radius: 10px;
@@ -303,6 +303,8 @@ body {
   cursor: pointer;
   text-decoration: none;
   align-self: center;
+  justify-self: center;
+  min-width: 60px;
 
   @media (max-width:  768px) {
    padding: 10px 25px;
@@ -323,13 +325,16 @@ body {
   cursor: pointer;
   text-decoration: none;
   align-self: center;
-
+  justify-self: center;
+  min-width: 60px;
   @media (max-width:  768px) {
    padding: 10px 25px;
    
     
   }
 }
+
+
 
 .about_me{
   display: flex;
@@ -519,11 +524,12 @@ body {
 }
 
 footer {
+  
   padding: 2vh 0px 2vh 5vw;
   background: #2A2D34;
   color: white;
   font-size: 16px;
-  font-size: clamp(0.5rem, 1.25vw, 1rem);
+  font-size: clamp(0.5rem, 0.4405rem + 0.2883vw, 0.7rem);
 
   @media (max-width:  1440px) {
    
@@ -619,8 +625,11 @@ footer {
     color: #2A2D34;
     background: #EEEBEA;
     white-space: nowrap;
-    padding: 7px 15px;
+
+
+    padding: 3px 8px;
     margin-right: 22px;
+    font-size: 10px;
     
   @media (max-width: 960px) {
       font-size: 12px; 
@@ -634,15 +643,16 @@ footer {
 
 .project_number {
   margin-left: -30px;
-  background: #EEEBEA;
-  border-radius: 15px;
-  font-size: 128px;
+  
+  
+  font-size: 100px;
   font-weight: 700;
-  color: #2A2D34;
+  color: #EEEBEA;
   overflow: hidden;
   padding-right: 15px;
+  border-right: solid 1px white;
 
-  @media (max-width: 960px) {
+  @media (max-width: 1024px) {
       font-size: 24px;
       margin-left: -0px;
       display: none;
@@ -671,7 +681,7 @@ footer {
 }
 
 .project_text{
-  margin-left: 50px;
+  margin-left: 25px;
   @media (max-width: 960px) {
      margin-left: 10px;
     position:relative;
@@ -685,7 +695,7 @@ footer {
 }
 
 .project_text_title{
-  font-size: 30px;
+  font-size: 24px;
   color: #EEEBEA;
 
   @media (max-width: 960px) {
@@ -760,6 +770,15 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  
+}
+
+.projects_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
   
 }
 

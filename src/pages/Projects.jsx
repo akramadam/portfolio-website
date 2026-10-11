@@ -20,7 +20,7 @@ export default function Projects (){
        <>
        <Navbar />
        <div className='page_start'></div>
-       <div className="project_page">
+       <div className="projects_page">
        
        
        <h1 className="showcase_title">Projekte</h1>
@@ -44,8 +44,10 @@ export default function Projects (){
                   </div>
                
        </div>
+       
        </div>
        <Footer />
+       
        </>
     )
    }
