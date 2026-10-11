@@ -386,7 +386,7 @@ body {
   
   
 
-  @media (max-width:  768px) {
+  @media (max-width:  425px) {
    
     max-height: 80vh;
     max-width: 80vw;
