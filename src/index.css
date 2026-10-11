@@ -144,7 +144,7 @@ body {
 
 .navbar_name{
   font-weight: 600;
-  font-size: clamp(0.8rem, 0.4778rem + 0.0848vw, 1.563rem);  /*30px, 1.563vw*/ ; 
+  font-size: clamp(0.8rem, 0.5732rem + 1.0998vw, 1.563rem);  /*30px, 1.563vw*/ ; 
   cursor: pointer;
   margin-left: 50px;
 
