@@ -9,5 +9,5 @@ export default function ScrollToTop() {
     window.scrollTo(0, 0);
   }, [pathname]); // This triggers every time the path changes
 
-  return null; 
+  return null;
 }
