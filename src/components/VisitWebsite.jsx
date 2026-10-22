@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 export default function VisitWebsite(props) {
   return (
     <>
-      <a href={props.url}>
+      <a href={props.url} target='_blank'>
         <motion.button
           className="visit_website_fixed"
           whileHover={{
